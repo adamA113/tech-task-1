@@ -1,7 +1,6 @@
-body {
-  font-family: sans-serif, Arial, Helvetica;
+body{
+    font-family:  sans-serif, Arial, Helvetica;
 }
-
 .navbar {
   position: sticky;
   top: 0;
@@ -9,19 +8,21 @@ body {
   width: 100%;
   line-height: 30px;
   background-color: #232329;
+
 }
 
 .logo {
   line-height: 30px;
   display: inline-block;
+  // margin: 10px 46px;
   color: #fff;
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
-}
-.logo:hover {
-  text-decoration: none;
-  color: #ff738c;
+  &:hover {
+    text-decoration: none;
+    color: lighten(#ff6984, 2);
+  }
 }
 
 .navbar-items {
@@ -33,6 +34,7 @@ body {
   color: #fff;
   text-align: right;
   font-size: 16px;
+  // transition: 1s;
 }
 
 .pc-view {
@@ -41,12 +43,11 @@ body {
   color: #fff;
   font-size: 1.1rem;
   margin-right: 20px;
+  &:hover {
+    text-decoration: none;
+    color: lighten(#ff6984, 5);
+  }
 }
-.pc-view:hover {
-  text-decoration: none;
-  color: #ff8399;
-}
-
 .menu-icon {
   display: none;
 }
@@ -55,30 +56,30 @@ body {
   .pc-view {
     display: none;
   }
-
   .menu-icon {
     display: inline-block;
   }
-
   .menu-icon:hover {
     cursor: pointer;
   }
-
   .navbar-items {
     display: inline-block;
-  }
-  .navbar-items .toggle-container {
-    margin: 0;
-    margin-bottom: 18px;
-  }
 
+    .toggle-container {
+      margin: 0;
+      margin-bottom: 18px;
+    }
+  }
   .logo-container {
     margin: 0 auto;
   }
 }
-header {
-  background-color: #232329;
+
+
+header{
+    background-color: #232329;
+    .header-img-container{
+        padding: 120px 44px;
+    }
 }
-header .header-img-container {
-  padding: 120px 44px;
-}
+/////*************dark mode************//////////

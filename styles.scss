@@ -137,19 +137,31 @@ header {
 footer {
   background-color: #232329;
 }
+
 .footer-container {
   padding: 30px;
+
   .footer-element-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    .footer-element{
+      color:#fff;
+      margin: 0 10px;
+    }
   }
+
   .footer-icons-container {
     margin: 20px;
     .footer-icons {
-      width: 20%;
+      width: 200px;
       margin: 0 auto;
+
+      .fab{
+        margin: 0 5px;
+      }
     }
   }
 }

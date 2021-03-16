@@ -90,17 +90,21 @@ header {
 
   .header-img-container {
     padding: 70px 0;
-    width: 700px;
+    margin: 0 30px;
+
+    img{
+      width: 600px;
+    }
   }
 
   .header-img-info {
-    padding: 140px 0;
-    width: 400px;
+    padding: 140px 30px;
+    width: 500px;
 
     .contact-btn {
-      padding: 5px 15px;
+      padding: 10px 25px;
       color: #232329;
-      font-weight: 400;
+      font-weight: 600;
       border-radius: 5px;
       background-color: lighten(#fe9000, 5);
     }
@@ -108,7 +112,7 @@ header {
 
   .header-img-info > p:first-child {
     color: lighten(#fe9000, 5);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
 }
@@ -116,6 +120,7 @@ header {
 /////*************about************//////////
 #about {
   background-color: #17171e;
+  padding: 70px 0;
 }
 
 .about-container {
@@ -125,20 +130,31 @@ header {
   align-content: center;
   width: 100%;
 
-  .about-image-container {
-    width: 600px;
-    padding: 20px;
+  .about-img-container {
+    margin: 20px;
+    // width: 450px;
+    // padding: 20px;
     img {
-      width: 207px;
-      height: 107px;
+      width: 500px;
+      height: 450px;
     }
+  }
+
+  .about-img-info {
+    width: 400px;
+    padding-top: 80px;
+  }
+
+  .about-img-info > p:first-child {
+    font-size: 2rem;
+    font-weight: 700;
   }
 }
 
-.about-container .about-img-container img {
-  width: 520px;
-  height: 447px;
-}
+// .about-container .about-img-container img {
+//   width: 520px;
+//   height: 447px;
+// }
 
 /////*************gallery************//////////
 #gallery {

@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif, Arial, Helvetica;
+  color: #fff;
 }
 
 .navbar {
@@ -21,7 +22,7 @@ body {
 }
 .logo:hover {
   text-decoration: none;
-  color: #ff738c;
+  color: #ff9509;
 }
 
 .navbar-items {
@@ -44,7 +45,7 @@ body {
 }
 .pc-view:hover {
   text-decoration: none;
-  color: #ff8399;
+  color: #ff9b19;
 }
 
 .menu-icon {
@@ -77,8 +78,19 @@ body {
   }
 }
 header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 100%;
   background-color: #232329;
+  color: #fff;
 }
-header .header-img-container {
-  padding: 120px 44px;
+header .header-img-container, header .header-img-info {
+  padding: 70px 44px;
+  width: 45%;
+}
+header .header-img-info > p:first-child {
+  color: #ff9b19;
+  font-size: 2rem;
+  font-weight: 600;
 }

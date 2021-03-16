@@ -1,5 +1,6 @@
-body{
-    font-family:  sans-serif, Arial, Helvetica;
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  color: #fff;
 }
 .navbar {
   position: sticky;
@@ -8,7 +9,6 @@ body{
   width: 100%;
   line-height: 30px;
   background-color: #232329;
-
 }
 
 .logo {
@@ -21,7 +21,7 @@ body{
   letter-spacing: 2px;
   &:hover {
     text-decoration: none;
-    color: lighten(#ff6984, 2);
+    color: lighten(#fe9000, 2);
   }
 }
 
@@ -45,7 +45,7 @@ body{
   margin-right: 20px;
   &:hover {
     text-decoration: none;
-    color: lighten(#ff6984, 5);
+    color: lighten(#fe9000, 5);
   }
 }
 .menu-icon {
@@ -75,11 +75,24 @@ body{
   }
 }
 
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 100%;
+  background-color: #232329;
+  color: #fff;
 
-header{
-    background-color: #232329;
-    .header-img-container{
-        padding: 120px 44px;
-    }
+  .header-img-container, .header-img-info {
+    padding: 70px 44px;
+    width:45%;
+  }
+
+  .header-img-info > p:first-child{
+      color: lighten(#fe9000, 5);
+      font-size: 2rem;
+      font-weight: 600;
+
+  }
 }
 /////*************dark mode************//////////

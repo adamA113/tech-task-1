@@ -96,6 +96,14 @@ header {
   .header-img-info {
     padding: 140px 0;
     width: 400px;
+
+    .contact-btn {
+      padding: 5px 15px;
+      color: #232329;
+      font-weight: 400;
+      border-radius: 5px;
+      background-color: lighten(#fe9000, 5);
+    }
   }
 
   .header-img-info > p:first-child {
@@ -132,6 +140,34 @@ header {
   height: 447px;
 }
 
+/////*************gallery************//////////
+#gallery {
+  background-color: #17171e;
+
+  .gallery-container p {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .gallery-img-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+    > div {
+      margin: 15px;
+    }
+
+    img {
+      width: 400px;
+      height: 500px;
+    }
+  }
+}
+
 /////*************footer************//////////
 
 footer {
@@ -147,8 +183,8 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 
-    .footer-element{
-      color:#fff;
+    .footer-element {
+      color: #fff;
       margin: 0 10px;
     }
   }
@@ -159,7 +195,7 @@ footer {
       width: 200px;
       margin: 0 auto;
 
-      .fab{
+      .fab {
         margin: 0 5px;
       }
     }

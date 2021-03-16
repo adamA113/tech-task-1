@@ -96,6 +96,13 @@ header .header-img-info {
   padding: 140px 0;
   width: 400px;
 }
+header .header-img-info .contact-btn {
+  padding: 5px 15px;
+  color: #232329;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: #ff9b19;
+}
 header .header-img-info > p:first-child {
   color: #ff9b19;
   font-size: 2rem;
@@ -125,6 +132,29 @@ header .header-img-info > p:first-child {
 .about-container .about-img-container img {
   width: 520px;
   height: 447px;
+}
+
+#gallery {
+  background-color: #17171e;
+}
+#gallery .gallery-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+#gallery .gallery-img-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+#gallery .gallery-img-container > div {
+  margin: 15px;
+}
+#gallery .gallery-img-container img {
+  width: 400px;
+  height: 500px;
 }
 
 footer {

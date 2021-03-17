@@ -183,6 +183,35 @@ header {
   }
 }
 
+/////*************enjoy************//////////
+#enjoy {
+  background-color: #17171e;
+  padding: 100px 0;
+}
+
+.enjoy-container{
+  position: relative;
+
+  .enjoy-img-info{
+    position: absolute;
+    width: 710px;
+    height: 560px;
+    top: 188px;
+    left: 360px;
+    border: 10px solid #fe9000;
+    padding: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .enjoy-img-info > p:first-child {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+}
+
 /////*************best************//////////
 #best {
   position: relative;

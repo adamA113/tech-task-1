@@ -143,6 +143,36 @@ header .header-img-info > p:first-child {
   font-weight: 700;
 }
 
+#quality {
+  position: relative;
+  margin-bottom: 300px;
+}
+#quality #shape {
+  width: 100%;
+}
+#quality #pancake {
+  position: absolute;
+  top: -70px;
+  right: -370px;
+  overflow: hidden;
+}
+#quality #egg {
+  position: absolute;
+  top: 680px;
+  right: -20px;
+  overflow: hidden;
+}
+#quality #best-meal {
+  position: absolute;
+  bottom: 70px;
+  left: -100px;
+  overflow: hidden;
+}
+
+.quality-container {
+  background-color: #17171e;
+}
+
 #gallery {
   background-color: #17171e;
   padding-bottom: 120px;
@@ -174,6 +204,10 @@ header .header-img-info > p:first-child {
 
 .enjoy-container {
   position: relative;
+}
+.enjoy-container .enjoy-img-container img {
+  object-fit: contain;
+  width: 100%;
 }
 .enjoy-container .enjoy-img-info {
   position: absolute;

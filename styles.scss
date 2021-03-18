@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif, Arial, Helvetica;
   color: #fff;
+  // background-color: #17171e;
 }
 .navbar {
   position: sticky;
@@ -153,6 +154,38 @@ header {
     font-weight: 700;
   }
 }
+/////*************quality************//////////
+#quality {
+  position: relative;
+  margin-bottom: 300px;
+  #shape {
+    width: 100%;
+  }
+  #pancake {
+    position: absolute;
+    // height: 788px;
+    top: -70px;
+    right: -370px;
+    overflow: hidden;
+  }
+  #egg {
+    position: absolute;
+    // height: 830px;
+    top: 680px;
+    right: -20px;
+    overflow: hidden;
+  }
+  #best-meal {
+    position: absolute;
+    // height: 830px;
+    bottom: 70px;
+    left: -100px;
+    overflow: hidden;
+  }
+}
+.quality-container {
+  background-color: #17171e;
+}
 
 /////*************gallery************//////////
 #gallery {
@@ -189,10 +222,15 @@ header {
   padding: 100px 0;
 }
 
-.enjoy-container{
+.enjoy-container {
   position: relative;
 
-  .enjoy-img-info{
+  .enjoy-img-container img{
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .enjoy-img-info {
     position: absolute;
     width: 710px;
     height: 560px;
@@ -209,7 +247,6 @@ header {
     font-size: 2.5rem;
     font-weight: 700;
   }
-
 }
 
 /////*************best************//////////

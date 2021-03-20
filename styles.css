@@ -169,7 +169,18 @@ header .header-img-info > p:first-child {
 }
 
 .quality-container {
-  background-color: #17171e;
+  width: 550px;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.quality-container .quality-img-info {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.quality-container .quality-img-info > p:first-child {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 #gallery {

@@ -184,7 +184,21 @@ header {
   }
 }
 .quality-container {
-  background-color: #17171e;
+  // background-color: #17171e;
+  width: 550px;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+
+  .quality-img-info {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    > p:first-child {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
 }
 
 /////*************gallery************//////////

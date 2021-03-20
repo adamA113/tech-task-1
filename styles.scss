@@ -276,6 +276,7 @@ header {
     width: 250px;
     margin: 0 auto;
     padding: 30px 0;
+    text-align: center;
   }
 }
 
@@ -292,8 +293,13 @@ header {
     img {
       margin-bottom: 8px;
     }
-    > p:first-child {
+    .item-name {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    .item-price {
       font-weight: 600;
+      font-size: 1.2rem;
     }
     > p:nth-child(even) {
       color: #fe9000;

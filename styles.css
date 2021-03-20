@@ -249,6 +249,7 @@ header .header-img-info > p:first-child {
   width: 250px;
   margin: 0 auto;
   padding: 30px 0;
+  text-align: center;
 }
 
 .menu-items-container {
@@ -264,8 +265,13 @@ header .header-img-info > p:first-child {
 .menu-items-container .menu-items img {
   margin-bottom: 8px;
 }
-.menu-items-container .menu-items > p:first-child {
+.menu-items-container .menu-items .item-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.menu-items-container .menu-items .item-price {
   font-weight: 600;
+  font-size: 1.2rem;
 }
 .menu-items-container .menu-items > p:nth-child(even) {
   color: #fe9000;

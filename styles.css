@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif, Arial, Helvetica;
   color: #fff;
+  background-color: #17171e;
 }
 
 .navbar {
@@ -208,7 +209,6 @@ header .header-img-info > p:first-child {
 }
 
 #enjoy {
-  background-color: #17171e;
   padding: 100px 0;
 }
 
@@ -221,15 +221,18 @@ header .header-img-info > p:first-child {
 }
 .enjoy-container .enjoy-img-info {
   position: absolute;
-  width: 710px;
-  height: 560px;
-  top: 188px;
-  left: 360px;
+  box-sizing: border-box;
+  background-color: #17171e;
+  width: 705px;
+  height: 555px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 10px solid #fe9000;
-  padding: 50px;
+  padding: 88px;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 .enjoy-container .enjoy-img-info > p:first-child {
   font-size: 2.5rem;

@@ -1,8 +1,11 @@
+$background-color: #17171e;
+
 * {
   font-family: sans-serif, Arial, Helvetica;
   color: #fff;
-  // background-color: #17171e;
+  background-color: $background-color;
 }
+
 .navbar {
   position: sticky;
   top: 0;
@@ -232,7 +235,6 @@ header {
 
 /////*************enjoy************//////////
 #enjoy {
-  background-color: #17171e;
   padding: 100px 0;
 }
 
@@ -246,15 +248,19 @@ header {
 
   .enjoy-img-info {
     position: absolute;
-    width: 710px;
-    height: 560px;
-    top: 188px;
-    left: 360px;
+    // margin: auto;
+    box-sizing: border-box;
+    background-color: $background-color;
+    width: 705px;
+    height: 555px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 10px solid #fe9000;
-    padding: 50px;
+    padding: 88px;
     text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 
   .enjoy-img-info > p:first-child {

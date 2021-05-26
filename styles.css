@@ -1,7 +1,6 @@
 * {
   font-family: sans-serif, Arial, Helvetica;
   color: #fff;
-  background-color: #17171e;
 }
 
 .navbar {
@@ -189,9 +188,10 @@ header .header-img-info > p:first-child {
   padding-bottom: 120px;
 }
 #gallery .gallery-container p {
-  width: 250px;
-  margin: 0 auto;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 50px 0;
 }
 #gallery .gallery-img-container {
   display: grid;
@@ -209,7 +209,7 @@ header .header-img-info > p:first-child {
 }
 
 #enjoy {
-  padding: 100px 0;
+  border: #17171e;
 }
 
 .enjoy-container {
@@ -240,6 +240,7 @@ header .header-img-info > p:first-child {
 }
 
 #menu {
+  padding-top: 100px;
   background-color: #17171e;
 }
 
@@ -247,10 +248,8 @@ header .header-img-info > p:first-child {
   padding-bottom: 150px;
 }
 .menu-container > p:first-child {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  width: 250px;
-  margin: 0 auto;
   padding: 30px 0;
   text-align: center;
 }
@@ -266,7 +265,7 @@ header .header-img-info > p:first-child {
   margin: 0 40px;
 }
 .menu-items-container .menu-items img {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .menu-items-container .menu-items .item-name {
   font-weight: 700;
@@ -282,12 +281,13 @@ header .header-img-info > p:first-child {
 
 #best {
   position: relative;
+  background-color: #fe9000;
 }
 
 .best-img-container {
   position: absolute;
   top: -65px;
-  left: 5px;
+  left: -10px;
   z-index: 10;
 }
 .best-img-container img {
@@ -298,7 +298,6 @@ header .header-img-info > p:first-child {
 .best-container {
   background-color: #fe9000;
   height: 450px;
-  position: relative;
   display: flex;
   align-items: center;
 }

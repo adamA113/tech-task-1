@@ -3,7 +3,7 @@ $background-color: #17171e;
 * {
   font-family: sans-serif, Arial, Helvetica;
   color: #fff;
-  background-color: $background-color;
+  // background-color: $background-color;
 }
 
 .navbar {
@@ -210,9 +210,10 @@ header {
   padding-bottom: 120px;
 
   .gallery-container p {
-    width: 250px;
-    margin: 0 auto;
-    font-size: 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 50px 0;
   }
 
   .gallery-img-container {
@@ -235,7 +236,8 @@ header {
 
 /////*************enjoy************//////////
 #enjoy {
-  padding: 100px 0;
+  // padding: 100px 0;
+  border: $background-color;
 }
 
 .enjoy-container {
@@ -271,16 +273,15 @@ header {
 
 /////*************menu************//////////
 #menu {
+  padding-top: 100px;
   background-color: #17171e;
 }
 
 .menu-container {
   padding-bottom: 150px;
   > p:first-child {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    width: 250px;
-    margin: 0 auto;
     padding: 30px 0;
     text-align: center;
   }
@@ -297,7 +298,7 @@ header {
   }
   .menu-items {
     img {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     .item-name {
       font-weight: 700;
@@ -316,12 +317,13 @@ header {
 /////*************best************//////////
 #best {
   position: relative;
+  background-color: #fe9000;
 }
 
 .best-img-container {
   position: absolute;
   top: -65px;
-  left: 5px;
+  left: -10px;
   z-index: 10;
   img {
     width: 570px;
@@ -332,7 +334,6 @@ header {
 .best-container {
   background-color: #fe9000;
   height: 450px;
-  position: relative;
   display: flex;
   align-items: center;
 
